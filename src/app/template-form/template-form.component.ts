@@ -18,8 +18,9 @@ export class TemplateFormComponent implements OnInit {
   }
 
   onSubmit(form:any){
-    console.log(form.value); //forma de submissão de dados 1 usando o form (template)
-    console.log(this.usuario); // forma de submissão 2 usando o objeto (component)
+    console.log(form);
+    //console.log(form.value); //forma de submissão de dados 1 usando o form (template)
+    //console.log(this.usuario); // forma de submissão 2 usando o objeto (component)
         
   }
 
